@@ -63,7 +63,7 @@ const visionModel = (
     maxTokens: number,
     costs: IChatModel['costs'],
 ): IChatModel => ({
-    puterId: `z-ai:zai/${id}`,
+    puterId: `z-ai:z-ai/${id}`,
     id,
     name,
     aliases: [`z-ai/${id}`, `zai/${id}`],
